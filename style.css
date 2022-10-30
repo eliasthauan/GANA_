@@ -1,6 +1,9 @@
 body {
     background: rgba(250, 248, 248, 0);
 }
+#banner{
+    width: 100%;
+}
 h1{
     color: rgb(10, 10, 10)  
 }
