@@ -1,6 +1,18 @@
 body {
     background: rgba(250, 248, 248, 0);
 }
+
+#capa {
+    width: 30%;
+    align-items:center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
 h1{
     color: rgb(10, 10, 10);
     font-size: 20px;
@@ -8,7 +20,8 @@ h1{
 }
 p{
     color: rgb(8, 8, 8);
-    text-align: center;
+    text-align: justify;
+    margin: 20px;
 }
 
 nav li {
@@ -25,11 +38,6 @@ nav a {
 nav a:hover {
     font-size: 1.1em;
     color: rgb(112, 2, 83)
-}
-
-#capa {
-    width: 100%;
-    float: center;
 }
 
 .titulo {
